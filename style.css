@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    font-family: "BentonSans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+    color: #383E40;
+    padding-bottom: 100px;
+    background-color: #3A2778;
+
+}
+
+.wrapper {
+    box-sizing: border-box;
+    color: white;
+}
+
+.header-main {
+    color: white;
+    position: relative;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.signup-content {
+    height: 600px;
+    width: 790px;
+    background-color: #f9f9fb;
+    color: #383E40;
+    padding: 20px;
+    line-height: 21px;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%), 0 3px 20px 0 rgb(0 0 0 / 15%);
+    background-size: 950px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.benefits-page-body {
+    display: flex;
+    flex-direction: column
+}
+
+.h2 {
+    font-weight: lighter;
+}
+
+.signup-page-sidebar {
+    background-color: white;
+    color: #383E40;
+    height: 96%;
+    width: 362px;
+    margin: -5px -30px 0 0;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%), 0 3px 20px 0 rgb(0 0 0 / 15%);
+
+}
+
+.already-login {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.benefits h3,
+.benefits .h3 {
+    line-height: 1.4;
+    max-width: 500px;
+    margin: 0 auto 15px;
+    font-size: 24px;
+    color: #79589F;
+}
+
+
+
+.input-group {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 13px;
+    width: 97%;
+    padding: 5px;
+
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #3A2778;
+    color: #f9f9fb;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    margin-top: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%), 0 3px 20px 0 rgb(0 0 0 / 15%);
+
+}
+
+.header-login button {
+    padding: 8px;
+    background-color: black;
+    color: #f9f9fb;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+}
+
+/* .signup-form :last-child {
+    margin-bottom: 0;
+} */
+
+sup.required {
+    color: #de0a0a;
+    font-size: 95%;
+    top: -2px;
+}
+
+.main-submit {
+
+    margin: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.h3 {
+    color: #3A2778;
+    font-weight: lighter;
+}
+
+.benefits-page-body p {
+    width: 300px;
+    font-weight: lighter;
+}
+
+.lang-selector button {
+    width: 20px;
+
+}
